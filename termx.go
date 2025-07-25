@@ -15,6 +15,7 @@ import (
 )
 
 var (
+	// Core components
 	Form    = form.New
 	Input   = input.New
 	Select  = selector.New
@@ -22,20 +23,25 @@ var (
 	Table   = table.New
 	Chart   = chart.New
 	
+	// Visual components
 	ASCII = ascii.New
 	Box   = ascii.Box
 	
+	// Progress and loading
 	Progress = progress.NewBar
 	Spinner  = progress.NewSpinner
 	
-	Split    = layout.NewSplit
+	// Layout components
+	Split     = layout.NewSplit
 	BoxLayout = layout.NewBox
 	
+	// Validators
 	Required  = input.Required
 	MinLength = input.MinLength
 	MaxLength = input.MaxLength
 	Email     = input.Email
 	
+	// Form helpers
 	WithPlaceholder = form.WithPlaceholder
 	WithValidator   = form.WithValidator
 	WithMaxLength   = form.WithMaxLength
