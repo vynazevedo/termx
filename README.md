@@ -128,48 +128,36 @@ var acao string
 termx.Select("Ação:", []string{"Escalar", "Reiniciar", "Deletar"}, &acao).Run()
 ```
 
-## Componentes
+## Componentes Implementados
 
-### Input
-- Entrada de texto com validação
-- Mascaramento de senha
-- Placeholders
-- Validadores customizados
+### ✅ Componentes Básicos
+- **Input**: Entrada de texto com validação e mascaramento de senha
+- **Select**: Seleção única com busca integrada e navegação por setas  
+- **Confirm**: Prompts de confirmação Y/N com atalhos de teclado
+- **Form**: Composição fluente de múltiplos componentes
 
-### Select
-- Seleção única
-- Busca/filtro integrado
-- Navegação por setas
-- Estilo customizado
+### ✅ Componentes Avançados
+- **MultiSelect**: Seleção múltipla com filtros e limites configuráveis
+- **ComboBox**: Input com sugestões e entrada customizada
+- **Menu**: Sistema de navegação hierárquico com ícones e submenus
 
-### Table
-- Estático ou interativo
-- Colunas ordenáveis
-- Bordas customizadas
-- Modo compacto
+### ✅ Visualização de Dados
+- **Table**: Tabelas estáticas ou interativas com navegação
+- **Chart**: Gráficos de barras e linhas com labels customizáveis
+- **ASCII**: Arte ASCII, logos pré-definidos e caixas decorativas
 
-### Chart
-- Gráficos de barras
-- Gráficos de linha
-- Gráficos de dispersão
-- Tamanho customizado
+### ✅ Feedback Visual
+- **Progress**: Barras de progresso com labels e estilos customizáveis  
+- **Spinner**: 8+ estilos de animação (dots, line, circle, arrow, clock, bounce, pulse, growing)
 
-### Progress
-- Barras de progresso
-- Múltiplos estilos
-- Rótulos
-- Exibição de porcentagem
+### ✅ Layouts
+- **Split**: Divisão horizontal/vertical com ratios configuráveis
+- **BoxLayout**: Caixas com bordas e conteúdo estruturado
 
-### Spinner
-- Múltiplas animações
-- Rótulos customizados
-- Operação assíncrona
-
-### ASCII
-- Logos pré-definidos
-- Arte customizada
-- Desenho de caixas
-- Suporte a cores
+### ✅ Sistema de Validação
+- **Validadores integrados**: Required, MinLength, MaxLength, Email
+- **Validadores customizados**: Suporte a funções personalizadas
+- **Validação em formulários**: Integrada nos componentes Form
 
 ## Uso Avançado
 
