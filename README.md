@@ -4,16 +4,16 @@ TermX é uma biblioteca TUI poderosa e declarativa que torna a criação de inte
 
 ## Por que TermX?
 
-- **Sem Arquitetura Elm**: API direta e simples sem padrões complexos Model/Update/View
-- **Componentes Integrados**: Tabelas, gráficos, barras de progresso, spinners e muito mais
-- **Suporte a Arte ASCII**: Renderize logos e diagramas facilmente
-- **Layouts Avançados**: Visualizações divididas, caixas e designs responsivos
-- **Atualizações em Tempo Real**: Gráficos dinâmicos, rastreamento de progresso e spinners
-- **Tabelas Interativas**: Navegue e selecione de tabelas de dados
-- **Composição de Formulários**: Encadeie inputs, selects e confirmações
-- **Validação Integrada**: Email, comprimento, campos obrigatórios e validadores customizados
-- **Busca/Filtro**: Integrado aos componentes de seleção
-- **Sistema de Temas**: Cores e estilos customizáveis
+- **Sem Arquitetura Elm**: API direta e simples sem padrões complexos Model/Update/View.
+- **Componentes Integrados**: Tabelas, gráficos, barras de progresso, spinners e muito mais.
+- **Suporte a Arte ASCII**: Renderize logos e diagramas facilmente.
+- **Layouts Avançados**: Visualizações divididas, caixas e designs responsivos.
+- **Atualizações em Tempo Real**: Gráficos dinâmicos, rastreamento de progresso e spinners.
+- **Tabelas Interativas**: Navegue e selecione de tabelas de dados.
+- **Composição de Formulários**: Encadeie inputs, selects e confirmações.
+- **Validação Integrada**: Email, comprimento, campos obrigatórios e validadores customizados.
+- **Busca/Filtro**: Integrado aos componentes de seleção.
+- **Sistema de Temas**: Cores e estilos customizáveis.
 
 ## Instalação
 
