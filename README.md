@@ -46,6 +46,20 @@ func main() {
 }
 ```
 
+## Screenshots dos Componentes
+
+### Input com Validação
+![Input](.github/imgs/input.jpg)
+
+### Seletor com Busca
+![Selector](.github/imgs/selector.jpg)
+
+### Diálogo de Confirmação
+![Dialog](.github/imgs/dialog.jpg)
+
+### Barra de Progresso
+![Progress](.github/imgs/progress.jpg)
+
 ## Recursos Únicos
 
 ### 1. Arte ASCII e Logos
